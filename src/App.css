@@ -1,0 +1,63 @@
+a {
+    text-decoration: none;
+}
+.github {
+    place-items: center;
+    max-width: 80%;
+    display: flex;
+    background-color: #222;
+    border-radius: 10px;
+}
+.github-icon {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+#github-text {
+    margin: 5px;
+    font-size: 11px;
+}
+.linkedin {
+    margin: 15px;
+    display: flex;
+    background-color: #009b5c;
+    border-radius: 10px;
+}
+.linkedin-icon {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: blue;
+}
+#linkedin-text {
+    margin: 5px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    color: black;
+}
+.portifolio {
+    margin: 5px;
+    place-items: center;
+    max-width: 80%;
+    display: flex;
+    background-color: rgb(15, 42, 199);
+    border-radius: 10px;
+}
+.portifolio-img {
+    margin: 5px;
+    height: 30px;
+    width: 50px;
+    color: white;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+}
+@media only screen and (max-device-width: 414px) {
+    .flex {
+        flex-direction: column;
+    }
+}

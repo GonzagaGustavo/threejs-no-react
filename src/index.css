@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(71, 15, 117);
 }
 
 code {
@@ -12,5 +13,16 @@ code {
     monospace;
 }
 .App {
-  height: 100vh;
+  height: 110vh;
+  display: grid;
+  place-items: center;
+}
+.oi {
+  font-size: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+.github {
+  color: white;
 }
