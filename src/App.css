@@ -7,12 +7,15 @@ a {
     display: flex;
     background-color: #222;
     border-radius: 10px;
+    padding: 12px;
+    max-height: 17px;
 }
 .github-icon {
     margin: 5px;
     height: 30px;
     width: 30px;
     color: white;
+
 }
 #github-text {
     margin: 5px;
@@ -59,5 +62,6 @@ a {
 @media only screen and (max-device-width: 414px) {
     .flex {
         flex-direction: column;
+        place-items: center;
     }
 }
